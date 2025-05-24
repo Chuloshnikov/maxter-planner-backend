@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     /* Language and Environment */
+    "typeRoots": ["./node_modules/@types", "./src/types"],
     "target": "ESNext",
     "module": "ESNext",
     "lib": ["ESNext"],
