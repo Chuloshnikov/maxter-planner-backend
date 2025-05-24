@@ -1,0 +1,9 @@
+{"level":"error","message":"❌ PostgreSQL Connection Error: Error: getaddrinfo ENOTFOUND db.xzdayquakabtebyozidy.supabase.co","timestamp":"2025-05-24T07:43:25.607Z"}
+{"level":"error","message":"❌ PostgreSQL Connection Error: Error: getaddrinfo ENOTFOUND db.xzdayquakabtebyozidy.supabase.co","timestamp":"2025-05-24T07:43:35.472Z"}
+{"level":"error","message":"❌ PostgreSQL Connection Error: Error: getaddrinfo ENOTFOUND db.xzdayquakabtebyozidy.supabase.co","timestamp":"2025-05-24T07:57:48.598Z"}
+{"level":"error","message":"❌ PostgreSQL Connection Error: Error: getaddrinfo ENOTFOUND db.xzdayquakabtebyozidy.supabase.co","timestamp":"2025-05-24T08:42:15.572Z"}
+{"level":"error","message":"❌ PostgreSQL Connection Error: Error: getaddrinfo ENOTFOUND db.xzdayquakabtebyozidy.supabase.co","timestamp":"2025-05-24T08:46:58.616Z"}
+{"level":"error","message":"❌ PostgreSQL Connection Error: Error: getaddrinfo ENOTFOUND db.cnxfnxdujyquxpgdpmwv.supabase.co","timestamp":"2025-05-24T08:48:47.058Z"}
+{"level":"error","message":"❌ PostgreSQL Connection Error: Error: getaddrinfo ENOTFOUND db.cnxfnxdujyquxpgdpmwv.supabase.co","timestamp":"2025-05-24T08:49:59.447Z"}
+{"level":"error","message":"❌ PostgreSQL Connection Error: Error: connect ENETUNREACH 2a05:d016:571:a401:acbd:47ef:c513:d6ff:5432","timestamp":"2025-05-24T08:54:46.711Z"}
+{"level":"error","message":"❌ PostgreSQL Connection Error: Error: getaddrinfo ENOTFOUND dpg-d0ousf6uk2gs7394bn2g-a","timestamp":"2025-05-24T16:43:38.657Z"}

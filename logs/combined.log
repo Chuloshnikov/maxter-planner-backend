@@ -1,2 +1,31 @@
 {"level":"info","message":"✅ PostgreSQL connected","timestamp":"2025-05-22T10:12:38.628Z"}
 {"level":"info","message":"✅ Server running on port 5000","timestamp":"2025-05-22T10:12:38.632Z"}
+{"level":"info","message":"✅ PostgreSQL connected","timestamp":"2025-05-23T13:03:44.092Z"}
+{"level":"info","message":"✅ Server running on port 5000","timestamp":"2025-05-23T13:03:44.097Z"}
+{"level":"error","message":"❌ PostgreSQL Connection Error: Error: getaddrinfo ENOTFOUND db.xzdayquakabtebyozidy.supabase.co","timestamp":"2025-05-24T07:43:25.607Z"}
+{"level":"error","message":"❌ PostgreSQL Connection Error: Error: getaddrinfo ENOTFOUND db.xzdayquakabtebyozidy.supabase.co","timestamp":"2025-05-24T07:43:35.472Z"}
+{"level":"error","message":"❌ PostgreSQL Connection Error: Error: getaddrinfo ENOTFOUND db.xzdayquakabtebyozidy.supabase.co","timestamp":"2025-05-24T07:57:48.598Z"}
+{"level":"error","message":"❌ PostgreSQL Connection Error: Error: getaddrinfo ENOTFOUND db.xzdayquakabtebyozidy.supabase.co","timestamp":"2025-05-24T08:42:15.572Z"}
+{"level":"error","message":"❌ PostgreSQL Connection Error: Error: getaddrinfo ENOTFOUND db.xzdayquakabtebyozidy.supabase.co","timestamp":"2025-05-24T08:46:58.616Z"}
+{"level":"error","message":"❌ PostgreSQL Connection Error: Error: getaddrinfo ENOTFOUND db.cnxfnxdujyquxpgdpmwv.supabase.co","timestamp":"2025-05-24T08:48:47.058Z"}
+{"level":"error","message":"❌ PostgreSQL Connection Error: Error: getaddrinfo ENOTFOUND db.cnxfnxdujyquxpgdpmwv.supabase.co","timestamp":"2025-05-24T08:49:59.447Z"}
+{"level":"error","message":"❌ PostgreSQL Connection Error: Error: connect ENETUNREACH 2a05:d016:571:a401:acbd:47ef:c513:d6ff:5432","timestamp":"2025-05-24T08:54:46.711Z"}
+{"level":"info","message":"✅ PostgreSQL connected","timestamp":"2025-05-24T09:02:04.792Z"}
+{"level":"info","message":"✅ Server running on port 5000","timestamp":"2025-05-24T09:02:04.796Z"}
+{"level":"info","message":"✅ PostgreSQL connected","timestamp":"2025-05-24T10:01:38.817Z"}
+{"level":"info","message":"✅ Server running on port 5000","timestamp":"2025-05-24T10:01:38.827Z"}
+{"level":"info","message":"✅ PostgreSQL connected","timestamp":"2025-05-24T15:53:46.502Z"}
+{"level":"info","message":"✅ Server running on port 5000","timestamp":"2025-05-24T15:53:46.505Z"}
+{"level":"info","message":"✅ PostgreSQL connected","timestamp":"2025-05-24T16:01:42.106Z"}
+{"level":"info","message":"✅ Server running on port 5000","timestamp":"2025-05-24T16:01:42.109Z"}
+{"level":"info","message":"✅ PostgreSQL connected","timestamp":"2025-05-24T16:16:08.370Z"}
+{"level":"info","message":"✅ Server running on port 5000","timestamp":"2025-05-24T16:16:08.373Z"}
+{"level":"info","message":"✅ PostgreSQL connected","timestamp":"2025-05-24T16:29:33.507Z"}
+{"level":"info","message":"✅ Server running on port 5000","timestamp":"2025-05-24T16:29:33.513Z"}
+{"level":"info","message":"✅ PostgreSQL connected","timestamp":"2025-05-24T16:31:16.679Z"}
+{"level":"info","message":"✅ Server running on port 5000","timestamp":"2025-05-24T16:31:16.683Z"}
+{"level":"error","message":"❌ PostgreSQL Connection Error: Error: getaddrinfo ENOTFOUND dpg-d0ousf6uk2gs7394bn2g-a","timestamp":"2025-05-24T16:43:38.657Z"}
+{"level":"info","message":"✅ PostgreSQL connected","timestamp":"2025-05-24T16:43:52.084Z"}
+{"level":"info","message":"✅ Server running on port 5000","timestamp":"2025-05-24T16:43:52.087Z"}
+{"level":"info","message":"✅ PostgreSQL connected","timestamp":"2025-05-24T16:45:00.077Z"}
+{"level":"info","message":"✅ Server running on port 5000","timestamp":"2025-05-24T16:45:00.081Z"}
