@@ -79,16 +79,56 @@ export const updateProfile = async (req: Request, res: Response): Promise<void> 
 
   const { profilePic } = req.body;
 
-  const uploadRes = await cloudinary.uploader.upload(profilePic);
+  try {
+    const uploadRes = await cloudinary.uploader.upload(profilePic);
+    
+    const updated = await prisma.user.update({
+      where: { id: req.user.id },
+      data: { profilePic: uploadRes.secure_url },
+      select: {
+        id: true,
+        username: true,
+        email: true,
+        profilePic: true,
+        createdAt: true,
+        updatedAt: true
+      }
+    });
 
-  const updated = await prisma.user.update({
-    where: { id: req.user.id },
-    data: { profilePic: uploadRes.secure_url },
-  });
-
-  res.status(200).json(updated);
+    res.status(200).json(updated);
+  } catch (error) {
+    console.error('Error updating profile:', error);
+    res.status(500).json({ message: 'Internal Server Error' });
+  }
 };
 
-export const checkAuth = (req: Request, res: Response): void => {
-  res.status(200).json(req.user);
+export const checkAuth = async (req: Request, res: Response): Promise<void> => {
+  if (!req.user) {
+    res.status(401).json({ message: 'Unauthorized' });
+    return;
+  }
+
+  try {
+    const user = await prisma.user.findUnique({
+      where: { id: req.user.id },
+      select: {
+        id: true,
+        username: true,
+        email: true,
+        profilePic: true,
+        createdAt: true,
+        updatedAt: true
+      }
+    });
+
+    if (!user) {
+      res.status(404).json({ message: 'User not found' });
+      return;
+    }
+
+    res.status(200).json(user);
+  } catch (error) {
+    console.error('Error in checkAuth:', error);
+    res.status(500).json({ message: 'Internal Server Error' });
+  }
 };

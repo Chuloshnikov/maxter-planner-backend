@@ -5,3 +5,13 @@ declare module 'express-serve-static-core' {
     user?: User;
   }
 }
+
+declare global {
+  declare namespace Express {
+  export interface Request {
+    user?: {
+      id: string;
+    };
+  }
+}
+}
