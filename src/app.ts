@@ -3,24 +3,41 @@ import cors from 'cors';
 import cookieParser from "cookie-parser";
 import { setupSwagger } from './config/swagger';
 import authRouter from "./routes/auth.route";
+import tasksRouter from './routes/tasks.routes';
 
 const app = express();
+
+/**
+ * Middleware
+ */
+
+// CORS
 app.use(cors({
-  origin: ["http://localhost:3000"],
+  origin: ["https://maxter-planner.vercel.app", "http://localhost:3000"], 
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true,
 }));
+
+// Парсинг JSON тела запросов
 app.use(express.json({ limit: "10mb" }));
+
+// Cookie парсер
 app.use(cookieParser());
 
-// Настройка Swagger
+/**
+ * Swagger документация
+ */
 setupSwagger(app);
 
-// Middleware
-app.use(express.json());
-app.use(cors());
-
-// Маршруты
+/**
+ * Роуты
+ */
 app.use("/api/auth", authRouter);
-app.get("/", (req, res ) => res.send("Welcome to PostgreSQL version"));
+app.use("/api/tasks", tasksRouter);
+
+app.get("/", (req, res) => {
+  res.send("Welcome to PostgreSQL version");
+});
 
 export default app;
