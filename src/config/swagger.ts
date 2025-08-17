@@ -11,7 +11,7 @@ export const setupSwagger = (app: Express): void => {
       info: {
         title: 'DoGood API',
         version: '1.0.0',
-        description: 'DoGood Backend API Documentation',
+        description: 'Maxter Planner Backend API Documentation',
       },
       servers: [
         {
